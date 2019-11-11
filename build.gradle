@@ -1,5 +1,5 @@
 plugins {
-	id 'org.springframework.boot' version '2.1.0.BUILD-SNAPSHOT'
+	id 'org.springframework.boot' version '2.1.4.RELEASE'
 	id 'io.spring.dependency-management' version '1.0.8.RELEASE'
 	id 'java'
 }
@@ -16,7 +16,7 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'de.codecentric:spring-boot-admin-starter-server:2.1.6'
+	implementation 'de.codecentric:spring-boot-admin-starter-server:2.1.4'
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
